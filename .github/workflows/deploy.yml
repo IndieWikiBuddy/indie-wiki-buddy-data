@@ -5,6 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency: deploy
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -34,3 +36,55 @@ jobs:
           git push "$remote" HEAD:dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # Mirror data and favicons to the extension repo.
+      - name: Mint app token for extension repo
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: IndieWikiBuddy
+          repositories: indie-wiki-buddy
+          permission-contents: write
+      - name: Check out extension repo
+        uses: actions/checkout@v7
+        with:
+          repository: IndieWikiBuddy/indie-wiki-buddy
+          token: ${{ steps.app-token.outputs.token }}
+          path: extension
+          persist-credentials: false
+      - name: Update extension data and favicons
+        env:
+          EXT_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          # Reuse this repo's commit message
+          # Qualify bare #123 refs so they point at this repo
+          qualify() { sed -E "s@(^|[^/[:alnum:]])#([0-9]+)@\1${GITHUB_REPOSITORY}#\2@g"; }
+          src_subject=$(git log -1 --pretty=%s | qualify)
+          src_body=$(git log -1 --pretty=%b | qualify)
+
+          # Only write data.json when the site list changed
+          jq -S .sites extension/data/data.json > "$RUNNER_TEMP/old-sites.json" 2>/dev/null || true
+          jq -S .sites dist/v1/all-data.json > "$RUNNER_TEMP/new-sites.json"
+          if ! cmp -s "$RUNNER_TEMP/old-sites.json" "$RUNNER_TEMP/new-sites.json"; then
+            # Pretty-print so diffs stay readable.
+            jq . dist/v1/all-data.json > extension/data/data.json
+          fi
+          rsync -a --delete dist/favicons/ extension/favicons/
+          cd extension
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Extension data and favicons unchanged; skipping."
+            exit 0
+          fi
+          {
+            printf '%s\n\n' "Update data: $src_subject"
+            if [ -n "$src_body" ]; then
+              printf '%s\n\n' "$src_body"
+            fi
+            printf '%s\n' "From ${GITHUB_REPOSITORY}@${GITHUB_SHA::7}"
+          } > "$RUNNER_TEMP/commit-msg.txt"
+          git config user.name "indie-wiki-buddy[bot]"
+          git config user.email "317142361+indie-wiki-buddy[bot]@users.noreply.github.com"
+          git commit -F "$RUNNER_TEMP/commit-msg.txt"
+          git push "https://x-access-token:${EXT_TOKEN}@github.com/IndieWikiBuddy/indie-wiki-buddy.git" HEAD:main
