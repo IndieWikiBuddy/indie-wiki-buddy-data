@@ -1703,6 +1703,26 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-bleakfaithforsaken",
+    "origins_label": "Bleak Faith: Forsaken Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Bleak Faith Forsaken Wiki",
+        "origin_base_url": "bleakfaithforsaken.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Bleak_Faith_Forsaken_Wiki"
+      }
+    ],
+    "destination": "Bleak Faith: Forsaken Wiki",
+    "destination_base_url": "bleakfaith.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "bleakfaithforsakenwiki.png",
+    "destination_main_page": "Bleak_Faith:_Forsaken_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-bleed",
     "origins_label": "Bleed Fandom Wiki",
     "origins": [
