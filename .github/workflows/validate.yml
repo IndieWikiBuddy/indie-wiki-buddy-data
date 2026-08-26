@@ -37,6 +37,7 @@ jobs:
         with:
           app-id: ${{ secrets.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-pull-requests: write
       # Sticky comment on the PR to share validation details
       - name: Comment results on PR
         if: always()
