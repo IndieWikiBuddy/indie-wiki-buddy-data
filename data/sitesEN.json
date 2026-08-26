@@ -9116,6 +9116,25 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-obby",
+    "origins_label": "Roblox Obby Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Roblox Obby Fandom Wiki",
+        "origin_base_url": "obby.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Roblox_Obby_Wiki"
+      }
+    ],
+    "destination": "Obby Wiki",
+    "destination_base_url": "obby.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "obbywiki.png",
+    "destination_main_page": "Home",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/"
+  },
+  {
     "id": "en-obeyme",
     "origins_label": "Obey Me! Fandom Wiki",
     "origins": [
