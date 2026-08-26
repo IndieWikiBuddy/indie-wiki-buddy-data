@@ -227,6 +227,17 @@ def data_files():
     return matched, rejected
 
 
+def reject_symlinks():
+    """Error on any symlink under data/ or favicons/"""
+    for top in (DATA_DIR, FAVICON_DIR):
+        for dirpath, dirnames, filenames in os.walk(top):
+            for name in dirnames + filenames:
+                full = os.path.join(dirpath, name)
+                if os.path.islink(full):
+                    rel = os.path.relpath(full, ROOT)
+                    err(Loc(rel, path=rel, title=os.path.basename(rel)), "symlinks are not allowed", os.readlink(full))
+
+
 KEY_RE = re.compile(r'"([A-Za-z0-9_-]+)"\s*:(?:\s*"([^"]*)")?')
 
 
@@ -291,6 +302,7 @@ def main():
         print("error: data/ directory not found")
         return 1
 
+    reject_symlinks()
     files, rejected = data_files()
     for filename in rejected:
         floc = Loc(f"data/{filename}", path=f"data/{filename}", title=filename)
