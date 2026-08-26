@@ -1703,6 +1703,26 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-bleakfaithforsaken",
+    "origins_label": "Bleak Faith: Forsaken Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Bleak Faith Forsaken Wiki",
+        "origin_base_url": "bleakfaithforsaken.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Bleak_Faith_Forsaken_Wiki"
+      }
+    ],
+    "destination": "Bleak Faith: Forsaken Wiki",
+    "destination_base_url": "bleakfaith.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "bleakfaithforsakenwiki.png",
+    "destination_main_page": "Bleak_Faith:_Forsaken_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-bleed",
     "origins_label": "Bleed Fandom Wiki",
     "origins": [
@@ -9114,6 +9134,25 @@
     "destination_search_path": "/w/index.php",
     "destination_content_path": "/wiki/",
     "destination_host": "Miraheze"
+  },
+  {
+    "id": "en-obby",
+    "origins_label": "Roblox Obby Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Roblox Obby Fandom Wiki",
+        "origin_base_url": "obby.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Roblox_Obby_Wiki"
+      }
+    ],
+    "destination": "Obby Wiki",
+    "destination_base_url": "obby.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "obbywiki.png",
+    "destination_main_page": "Home",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/"
   },
   {
     "id": "en-obeyme",
