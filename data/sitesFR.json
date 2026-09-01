@@ -673,6 +673,25 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "fr-undertale",
+    "origins_label": "Undertale Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Undertale Fandom Wiki",
+        "origin_base_url": "undertale.fandom.com/fr",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Accueil"
+      }
+    ],
+    "destination": "Undertale Wiki FR",
+    "destination_base_url": "fr.undertale.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "undertalewiki.png",
+    "destination_main_page": "Accueil",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/"
+  },
+  {
     "id": "fr-warhammer40k",
     "origins_label": "Warhammer 40,000 Fandom Wiki",
     "origins": [

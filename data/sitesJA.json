@@ -43,6 +43,25 @@
     ]
   },
   {
+    "id": "ja-deltarune",
+    "origins_label": "Deltarune Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Deltarune Fandom Wiki",
+        "origin_base_url": "deltarune.fandom.com/ja",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Deltarune_Wiki"
+      }
+    ],
+    "destination": "Deltarune Wiki",
+    "destination_base_url": "ja.deltarune.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "deltarunewiki.png",
+    "destination_main_page": "Deltarune_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/w/"
+  },
+  {
     "id": "ja-fridaynightfunkin",
     "origins_label": "Friday Night Funkin' Fandom Wiki",
     "origins": [
@@ -119,5 +138,24 @@
     "destination_main_page": "メインページ",
     "destination_search_path": "/w/index.php",
     "destination_content_path": "/wiki/"
+  },
+  {
+    "id": "ja-undertale",
+    "origins_label": "Undertale Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Undertale Fandom Wiki",
+        "origin_base_url": "undertale.fandom.com/ja",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Undertale_Japan_Wiki"
+      }
+    ],
+    "destination": "Undertale Wiki",
+    "destination_base_url": "ja.undertale.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "undertalewiki.png",
+    "destination_main_page": "Undertale_Japan_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/w/"
   }
 ]
