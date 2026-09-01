@@ -1,0 +1,41 @@
+name: Request a wiki redirect be added
+description: Request an wiki redirect be added
+title: "Add a wiki redirect: PUT WIKI NAME HERE"
+labels:
+  - "type: new wiki"
+  - "status: pending review"
+body:
+  - type: input
+    id: origin
+    attributes:
+      label: Origin wiki
+      description: Link to the wiki users should be redirected away from
+      placeholder: https://example.fandom.com
+    validations:
+      required: true
+  - type: input
+    id: destination
+    attributes:
+      label: Destination (independent) wiki
+      description: Link to the independent wiki
+      placeholder: https://example.wiki
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ### Run the wiki analysis
+        Go to [getindie.wiki/analysis](https://getindie.wiki/analysis/), enter the same two links, and click **Check**. Then click **Copy markdown** under "Markdown for GitHub" and paste it below.
+  - type: textarea
+    id: analysis
+    attributes:
+      label: Analysis results
+      description: Paste the "Markdown for GitHub" output from the analysis page
+      placeholder: Paste the copied markdown here
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else?
+      description: Optional notes, such as whether the wiki forked or any other context that might be useful for reviewers
