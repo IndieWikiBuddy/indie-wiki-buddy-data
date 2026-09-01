@@ -3726,6 +3726,25 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-doors",
+    "origins_label": "Doors Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Doors Fandom Wiki",
+        "origin_base_url": "doors-game.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "DOORS_Wiki"
+      }
+    ],
+    "destination": "The Doors Wiki",
+    "destination_base_url": "doorsgame.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "doorswiki.png",
+    "destination_main_page": "DOORS_Wiki",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/"
+  },
+  {
     "id": "en-dota2",
     "origins_label": "Dota 2 Fandom Wiki",
     "origins": [
