@@ -3727,22 +3727,26 @@
   },
   {
     "id": "en-doorsroblox",
-    "origins_label": "Doors Fandom Wiki",
+    "origins_label": "DOORS Fandom Wiki",
     "origins": [
       {
-        "origin": "Doors Fandom Wiki",
+        "origin": "DOORS Fandom Wiki",
         "origin_base_url": "doors-game.fandom.com",
         "origin_content_path": "/wiki/",
         "origin_main_page": "DOORS_Wiki"
       }
     ],
-    "destination": "The Doors Wiki",
+    "destination": "DOORS Wiki",
     "destination_base_url": "doorsgame.wiki",
     "destination_platform": "mediawiki",
     "destination_icon": "doorswiki.png",
     "destination_main_page": "DOORS_Wiki",
     "destination_search_path": "/w/index.php",
-    "destination_content_path": "/wiki/"
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze",
+    "tags": [
+      "official"
+    ]
   },
   {
     "id": "en-dota2",
