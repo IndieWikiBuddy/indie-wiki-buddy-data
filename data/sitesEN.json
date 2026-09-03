@@ -3727,11 +3727,23 @@
   },
   {
     "id": "en-doorsroblox",
-    "origins_label": "DOORS Fandom Wiki",
+    "origins_label": "DOORS Fandom Wikis",
     "origins": [
       {
         "origin": "DOORS Fandom Wiki",
         "origin_base_url": "doors-game.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "DOORS_Wiki"
+      },
+      {
+        "origin": "Roblox DOORS Fandom Wiki",
+        "origin_base_url": "roblox-doors.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Roblox_Doors_Wiki"
+      },
+      {
+        "origin": "DOORS Fanmade Wiki",
+        "origin_base_url": "doors-fanmake.fandom.com",
         "origin_content_path": "/wiki/",
         "origin_main_page": "DOORS_Wiki"
       }
