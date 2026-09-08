@@ -2983,6 +2983,26 @@
     "destination_content_path": "/w/"
   },
   {
+    "id": "en-dappervolk",
+    "origins_label": "Dappervolk Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Dappervolk Fandom Wiki",
+        "origin_base_url": "dappervolk.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Dappervolk"
+      }
+    ],
+    "destination": "Dappervolk Wiki",
+    "destination_base_url": "dappervolk.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "dappervolkwiki.png",
+    "destination_main_page": "Dappervolk",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
+  },
+  {
     "id": "en-daria",
     "origins_label": "Daria Fandom Wiki",
     "origins": [
