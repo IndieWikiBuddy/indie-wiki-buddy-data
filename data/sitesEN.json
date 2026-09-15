@@ -14305,6 +14305,25 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-wardogs",
+    "origins_label": "WARDOGS Fandom Wiki",
+    "origins": [
+      {
+        "origin": "WARDOGS Fandom Wiki",
+        "origin_base_url": "wardogs.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "WARDOGS_Wiki"
+      }
+    ],
+    "destination": "WARDOGS",
+    "destination_base_url": "wardogs.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "wardogs.png",
+    "destination_main_page": "Main_Page",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/index.php/"
+  },
+  {
     "id": "en-warframe",
     "origins_label": "Warframe Fandom Wiki",
     "origins": [
