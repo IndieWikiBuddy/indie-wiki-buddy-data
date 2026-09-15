@@ -2902,6 +2902,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-cultic",
+    "origins_label": "Cultic Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Cultic Fandom Wiki",
+        "origin_base_url": "cultic.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Cultic_Wiki"
+      }
+    ],
+    "destination": "Cultic Wiki",
+    "destination_base_url": "cultic.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "culticwiki.png",
+    "destination_main_page": "Cultic_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-cyberknights",
     "origins_label": "Cyber Knights: Flashpoint Fandom Wiki",
     "origins": [
