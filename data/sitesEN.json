@@ -6711,6 +6711,26 @@
     ]
   },
   {
+    "id": "en-infalsus",
+    "origins_label": "In Falsus Fandom Wiki",
+    "origins": [
+      {
+        "origin": "In Falsus Fandom Wiki",
+        "origin_base_url": "in-falsus.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "In_Falsus_Wiki"
+      }
+    ],
+    "destination": "In Falsus Wiki",
+    "destination_base_url": "infalsus.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "infalsuswiki.png",
+    "destination_main_page": "In_Falsus_Wiki",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
+  },
+  {
     "id": "en-inmost",
     "origins_label": "Inmost Fandom Wiki",
     "origins": [
