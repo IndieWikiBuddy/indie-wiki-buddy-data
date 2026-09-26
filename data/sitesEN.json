@@ -2908,6 +2908,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-cultic",
+    "origins_label": "Cultic Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Cultic Fandom Wiki",
+        "origin_base_url": "cultic.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Cultic_Wiki"
+      }
+    ],
+    "destination": "Cultic Wiki",
+    "destination_base_url": "cultic.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "culticwiki.png",
+    "destination_main_page": "Cultic_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-cyberknights",
     "origins_label": "Cyber Knights: Flashpoint Fandom Wiki",
     "origins": [
@@ -5755,6 +5775,26 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-gorebox",
+    "origins_label": "GoreBox Fandom Wiki",
+    "origins": [
+      {
+        "origin": "GoreBox Fandom Wiki",
+        "origin_base_url": "gorebox.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "GoreBox_Wiki"
+      }
+    ],
+    "destination": "GoreBox Wiki",
+    "destination_base_url": "gorebox.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "goreboxwiki.png",
+    "destination_main_page": "GoreBox_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-gothic",
     "origins_label": "Gothic Fandom Wiki",
     "origins": [
@@ -6715,6 +6755,26 @@
     "tags": [
       "official"
     ]
+  },
+  {
+    "id": "en-infalsus",
+    "origins_label": "In Falsus Fandom Wiki",
+    "origins": [
+      {
+        "origin": "In Falsus Fandom Wiki",
+        "origin_base_url": "in-falsus.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "In_Falsus_Wiki"
+      }
+    ],
+    "destination": "In Falsus Wiki",
+    "destination_base_url": "infalsus.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "infalsuswiki.png",
+    "destination_main_page": "In_Falsus_Wiki",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
   },
   {
     "id": "en-inmost",
@@ -13285,6 +13345,28 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-towerdefensesimulator",
+    "origins_label": "Tower Defense Simulator Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Tower Defense Simulator Fandom Wiki",
+        "origin_base_url": "tds.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Tower_Defense_Simulator_Wiki"
+      }
+    ],
+    "destination": "Tower Defense Simulator Wiki",
+    "destination_base_url": "tds.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "towerdefensesimulatorwiki.png",
+    "destination_main_page": "Tower_Defense_Simulator_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/w/",
+    "tags": [
+      "official"
+    ]
+  },
+  {
     "id": "en-towerfall",
     "origins_label": "TowerFall Fandom Wiki",
     "origins": [
@@ -13913,6 +13995,25 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-valheim",
+    "origins_label": "Valheim Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Valheim Fandom Wiki",
+        "origin_base_url": "valheim.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Valheim_Wiki"
+      }
+    ],
+    "destination": "Valheim Wiki",
+    "destination_base_url": "valheim.weirdgloop.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "valheimwiki.png",
+    "destination_main_page": "Valheim_Wiki",
+    "destination_search_path": "/",
+    "destination_content_path": "/w/"
+  },
+  {
     "id": "en-valorant",
     "origins_label": "VALORANT Fandom Wikis",
     "origins": [
@@ -14270,6 +14371,25 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-wardogs",
+    "origins_label": "WARDOGS Fandom Wiki",
+    "origins": [
+      {
+        "origin": "WARDOGS Fandom Wiki",
+        "origin_base_url": "wardogs.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "WARDOGS_Wiki"
+      }
+    ],
+    "destination": "WARDOGS Wiki",
+    "destination_base_url": "wardogs.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "wardogs.png",
+    "destination_main_page": "Main_Page",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/index.php/"
+  },
+  {
     "id": "en-warframe",
     "origins_label": "Warframe Fandom Wiki",
     "origins": [
@@ -14373,6 +14493,26 @@
     "destination_main_page": "Main_Page",
     "destination_search_path": "/w/index.php",
     "destination_content_path": "/wiki/"
+  },
+  {
+    "id": "en-welcometoenderfield",
+    "origins_label": "Welcome to Enderfield Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Welcome to Enderfield Fandom Wiki",
+        "origin_base_url": "welcome-to-enderfield.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Welcome_to_Enderfield_Wiki"
+      }
+    ],
+    "destination": "Welcome to Elderfield Wiki",
+    "destination_base_url": "welcometoelderfield.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "welcometoelderfieldwiki.png",
+    "destination_main_page": "Welcome_to_Elderfield_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
   },
   {
     "id": "en-wesnoth",
