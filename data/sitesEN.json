@@ -7449,6 +7449,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-legaia",
+    "origins_label": "Legaia Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Legaia Fandom Wiki",
+        "origin_base_url": "legaia.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Legaia_Wiki"
+      }
+    ],
+    "destination": "Legaia Wiki",
+    "destination_base_url": "legaia.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "legaiawiki.png",
+    "destination_main_page": "Legaia_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-legendofthegalacticheroes",
     "origins_label": "Legend of Galactic Heroes Fandom Wiki",
     "origins": [
