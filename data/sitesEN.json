@@ -4967,6 +4967,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-feedthepit",
+    "origins_label": "Feed the Pit Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Feed the Pit Fandom Wiki",
+        "origin_base_url": "feed-the-pit.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Feed_the_Pit_Wiki"
+      }
+    ],
+    "destination": "Feed The Pit Wiki",
+    "destination_base_url": "feedthepit.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "feedthepitwiki.png",
+    "destination_main_page": "Feed_The_Pit_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-ffxiv",
     "origins_label": "Final Fantasy XIV Fandom Wiki",
     "origins": [
