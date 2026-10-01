@@ -1864,6 +1864,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-bombrushcyberfunk",
+    "origins_label": "Bomb Rush Cyberfunk Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Bomb Rush Cyberfunk Fandom Wiki",
+        "origin_base_url": "bomb-rush-cyberfunk.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Bomb_Rush_Cyberfunk_Wiki"
+      }
+    ],
+    "destination": "Bomb Rush Cyberfunk Wiki",
+    "destination_base_url": "bombrushcyberfunk.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "bombrushcyberfunkwiki.png",
+    "destination_main_page": "Bomb_Rush_Cyberfunk_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-bookoftravels",
     "origins_label": "Book of Travels Fandom Wiki",
     "origins": [
