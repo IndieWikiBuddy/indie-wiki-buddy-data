@@ -5705,6 +5705,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-gloomwood",
+    "origins_label": "Gloomwood Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Gloomwood Fandom Wiki",
+        "origin_base_url": "gloomwood.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Gloomwood_Wiki"
+      }
+    ],
+    "destination": "Gloomwood Wiki",
+    "destination_base_url": "gloomwood.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "gloomwoodwiki.png",
+    "destination_main_page": "Gloomwood_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-gnorp",
     "origins_label": "(the) Gnorp Apologue Fandom Wiki",
     "origins": [
