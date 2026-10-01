@@ -8093,6 +8093,26 @@
     "destination_content_path": "/"
   },
   {
+    "id": "en-mcchampionship",
+    "origins_label": "MC Championship Fandom Wiki",
+    "origins": [
+      {
+        "origin": "MC Championship Fandom Wiki",
+        "origin_base_url": "mcchampionship.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "MC_Championship_Wiki"
+      }
+    ],
+    "destination": "MC Championship Wiki",
+    "destination_base_url": "mcchampionship.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "mcchampionshipwiki.png",
+    "destination_main_page": "MC_Championship_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-mcci",
     "origins_label": "MCC Island Fandom Wiki",
     "origins": [
