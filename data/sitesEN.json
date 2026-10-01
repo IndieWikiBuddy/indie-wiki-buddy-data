@@ -12964,6 +12964,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-thelifeandsufferingofsirbrante",
+    "origins_label": "The Life and Suffering of Sir Brante Fandom Wiki",
+    "origins": [
+      {
+        "origin": "The Life and Suffering of Sir Brante Fandom Wiki",
+        "origin_base_url": "the-life-and-suffering-of-sir-brante.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "The_Life_and_Suffering_of_Sir_Brante_Wiki"
+      }
+    ],
+    "destination": "The Life and Suffering Wiki",
+    "destination_base_url": "thelifeandsuffering.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "thelifeandsufferingwiki.png",
+    "destination_main_page": "The_Life_and_Suffering_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-thematchlesskungfu",
     "origins_label": "The Matchless Kungfu Fandom Wiki",
     "origins": [
