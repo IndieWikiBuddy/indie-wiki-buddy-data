@@ -11009,6 +11009,26 @@
     ]
   },
   {
+    "id": "en-rpgmo",
+    "origins_label": "RPG MO Fandom Wiki",
+    "origins": [
+      {
+        "origin": "RPG MO Fandom Wiki",
+        "origin_base_url": "rpg-mo.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Main_Page"
+      }
+    ],
+    "destination": "RPG MO Wiki",
+    "destination_base_url": "rpgmo.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "rpgmowiki.png",
+    "destination_main_page": "RPG_MO_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-runescape",
     "origins_label": "RuneScape Fandom & Neoseeker Wikis",
     "origins": [
