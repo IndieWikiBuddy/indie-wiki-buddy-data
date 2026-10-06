@@ -818,6 +818,26 @@
     ]
   },
   {
+    "id": "en-approximatelyup",
+    "origins_label": "Approximately Up Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Approximately Up Fandom Wiki",
+        "origin_base_url": "approximately-up.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Approximately_Up_Wiki"
+      }
+    ],
+    "destination": "Approximately Up Wiki",
+    "destination_base_url": "approximatelyup.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "approximatelyupwiki.png",
+    "destination_main_page": "Approximately_Up_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-arcraiders",
     "origins_label": "Arc Raiders Fandom Wiki",
     "origins": [
