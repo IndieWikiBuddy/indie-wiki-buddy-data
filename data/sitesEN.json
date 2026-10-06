@@ -11322,6 +11322,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-scrapmechanic",
+    "origins_label": "Scrap Mechanic Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Scrap Mechanic Fandom Wiki",
+        "origin_base_url": "scrapmechanic.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Scrap_Mechanic_Wiki"
+      }
+    ],
+    "destination": "Scrap Mechanic Wiki",
+    "destination_base_url": "scrapmechanic.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "scrapmechanicwiki.png",
+    "destination_main_page": "Scrap_Mechanic_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-scribblenauts",
     "origins_label": "Scribblenauts Fandom Wiki",
     "origins": [
