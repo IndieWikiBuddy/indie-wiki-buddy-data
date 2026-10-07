@@ -12741,6 +12741,26 @@
     ]
   },
   {
+    "id": "en-terrabattle",
+    "origins_label": "Terra Battle Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Terra Battle Fandom Wiki",
+        "origin_base_url": "terrabattle.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Terra_Battle_Wiki"
+      }
+    ],
+    "destination": "Terra Battle Wiki",
+    "destination_base_url": "terrabattle.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "terrabattlewiki.png",
+    "destination_main_page": "Terra_Battle_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-terrainvicta",
     "origins_label": "Terra Invicta Fandom Wikis",
     "origins": [
