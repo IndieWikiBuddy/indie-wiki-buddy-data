@@ -10577,6 +10577,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-ravenswatch",
+    "origins_label": "Ravenswatch Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Ravenswatch Fandom Wiki",
+        "origin_base_url": "ravenswatch.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Ravenswatch_Wiki"
+      }
+    ],
+    "destination": "Ravenswatch Wiki",
+    "destination_base_url": "ravenswatch.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "ravenswatchwiki.png",
+    "destination_main_page": "Ravenswatch_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-rayman",
     "origins_label": "Rayman Fandom Wikis",
     "origins": [
