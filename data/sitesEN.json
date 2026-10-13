@@ -6586,6 +6586,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-idlebossrush",
+    "origins_label": "IDLE BOSS RUSH Fandom Wiki",
+    "origins": [
+      {
+        "origin": "IDLE BOSS RUSH Fandom Wiki",
+        "origin_base_url": "idle-boss-rush.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "IDLE_BOSS_RUSH_Wiki"
+      }
+    ],
+    "destination": "IDLE BOSS RUSH Wiki",
+    "destination_base_url": "idlebossrush.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "idlebossrushwiki.png",
+    "destination_main_page": "IDLE_BOSS_RUSH_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-idlewizard",
     "origins_label": "Idle Wizard Fandom Wiki",
     "origins": [
