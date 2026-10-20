@@ -2678,6 +2678,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-convallaria",
+    "origins_label": "Sword of Convallaria Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Sword of Convallaria Fandom Wiki",
+        "origin_base_url": "convallaria.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Sword_of_Convallaria_Wiki"
+      }
+    ],
+    "destination": "Sword of Convallaria Wiki",
+    "destination_base_url": "swordofconvallaria.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "swordofconvallariawiki.png",
+    "destination_main_page": "Sword_of_Convallaria_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-conwaysgameoflife",
     "origins_label": "Conway's Game of Life Fandom Wiki",
     "origins": [
