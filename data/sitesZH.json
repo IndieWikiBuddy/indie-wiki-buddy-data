@@ -150,7 +150,7 @@
         "origin_main_page": "首页"
       }
     ],
-    "destination": "KartRider Wiki",
+    "destination": "跑跑卡丁车Wiki",
     "destination_base_url": "kartrider.wiki.gg/zh",
     "destination_platform": "mediawiki",
     "destination_icon": "kartriderwiki.png",
