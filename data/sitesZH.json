@@ -309,5 +309,31 @@
     "destination_main_page": "Undertale_Wiki",
     "destination_search_path": "/index.php",
     "destination_content_path": "/w/"
+  },
+  {
+    "id": "zh-valheim",
+    "origins_label": "Valheim 中文維基 Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Valheim 中文維基 Fandom Wiki",
+        "origin_base_url": "valheim.fandom.com/zh",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Valhiem_中文維基_Wiki"
+      },
+      {
+        "origin": "Valheim Fandom Wiki",
+        "origin_base_url": "valheim.fandom.com/zh-tw",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Valheim_Wiki"
+      }
+    ],
+    "destination": "瓦爾海姆中文維基百科",
+    "destination_base_url": "chunghwamc.com",
+    "destination_platform": "mediawiki",
+    "destination_icon": "chunghwamccom.png",
+    "destination_main_page": "首頁",
+    "destination_search_path": "/wiki/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_content_prefix": "瓦爾海姆:"
   }
 ]
