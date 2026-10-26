@@ -1887,6 +1887,26 @@
     ]
   },
   {
+    "id": "en-bopathoftheteallotus",
+    "origins_label": "Bо̄: Path of the Teal Lotus Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Bо̄: Path of the Teal Lotus Fandom Wiki",
+        "origin_base_url": "bopathoftheteallotus.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Bō:_Path_of_the_Teal_Lotus_Wiki"
+      }
+    ],
+    "destination": "Bō Path of the Teal Lotus Wiki",
+    "destination_base_url": "bopathoftheteallotus.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "bopathoftheteallotuswiki.png",
+    "destination_main_page": "Bō:_Path_of_the_Teal_Lotus_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-boxboy",
     "origins_label": "BOXBOY! Fandom Wiki",
     "origins": [
