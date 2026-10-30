@@ -14163,6 +14163,26 @@
     "destination_content_path": "/wiki/index.php?title="
   },
   {
+    "id": "en-untilthengame",
+    "origins_label": "Until Then Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Until Then Fandom Wiki",
+        "origin_base_url": "until-then-game.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Until_Then_Wiki"
+      }
+    ],
+    "destination": "Until Then Wiki",
+    "destination_base_url": "untilthen.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "untilthenwiki.png",
+    "destination_main_page": "Until_Then_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-untitledtaggame",
     "origins_label": "Untitled Tag Game Fandom Wiki",
     "origins": [
