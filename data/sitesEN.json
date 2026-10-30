@@ -8037,6 +8037,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-lovenikki",
+    "origins_label": "Love Nikki-Dress UP Queen! Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Love Nikki-Dress UP Queen! Fandom Wiki",
+        "origin_base_url": "lovenikki.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Love_Nikki-Dress_UP_Queen!_Wiki"
+      }
+    ],
+    "destination": "Love Nikki Wiki",
+    "destination_base_url": "lovenikki.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "lovenikkiwiki.png",
+    "destination_main_page": "Love_Nikki-Dress_UP_Queen!_Wiki",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
+  },
+  {
     "id": "en-mabinogi",
     "origins_label": "Mabinogi Fandom Wiki",
     "origins": [
