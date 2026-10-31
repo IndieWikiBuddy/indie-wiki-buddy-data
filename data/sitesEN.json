@@ -4475,6 +4475,25 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-elitedangerous",
+    "origins_label": "Elite Dangerous Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Elite Dangerous Fandom Wiki",
+        "origin_base_url": "elite-dangerous.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Elite_Dangerous_Wiki"
+      }
+    ],
+    "destination": "Elite Dangerous Wiki",
+    "destination_base_url": "elite.mistflux.co.uk",
+    "destination_platform": "mediawiki",
+    "destination_icon": "elitedangerouswiki.png",
+    "destination_main_page": "Main_Page",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/"
+  },
+  {
     "id": "en-emberknights",
     "origins_label": "Ember Knights Fandom Wiki",
     "origins": [
