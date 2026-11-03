@@ -176,6 +176,26 @@
     "destination_host": "Miraheze"
   },
   {
+    "id": "en-9kings",
+    "origins_label": "9 Kings Fandom Wiki",
+    "origins": [
+      {
+        "origin": "9 Kings Fandom Wiki",
+        "origin_base_url": "9kings.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "9_Kings_Wiki"
+      }
+    ],
+    "destination": "9 Kings Wiki",
+    "destination_base_url": "9kings.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "9kingswiki.png",
+    "destination_main_page": "9_Kings_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-abioticfactor",
     "origins_label": "Abiotic Factor Fandom Wiki",
     "origins": [
