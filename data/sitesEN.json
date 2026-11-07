@@ -7930,6 +7930,25 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-loftia",
+    "origins_label": "Loftia Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Loftia Fandom Wiki",
+        "origin_base_url": "loftia.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Loftia_Wiki"
+      }
+    ],
+    "destination": "Loftia Community Wiki",
+    "destination_base_url": "loftiawiki.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "loftiacommunitywiki.png",
+    "destination_main_page": "Main_Page",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/"
+  },
+  {
     "id": "en-lookoutside",
     "origins_label": "Look Outside Fandom Wiki",
     "origins": [
