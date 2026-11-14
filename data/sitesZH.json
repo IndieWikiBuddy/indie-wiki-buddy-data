@@ -20,6 +20,25 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "zh-bluearchive",
+    "origins_label": "Blue Archive Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Blue Archive Fandom Wiki",
+        "origin_base_url": "bluearchive.fandom.com/zh",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "首页"
+      }
+    ],
+    "destination": "中文 Blue Archive Wiki",
+    "destination_base_url": "zh.bluearchive.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "bluearchivewiki.png",
+    "destination_main_page": "首页",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/"
+  },
+  {
     "id": "zh-calamitymod",
     "origins_label": "Calamity Mod Fandom Wiki",
     "origins": [
