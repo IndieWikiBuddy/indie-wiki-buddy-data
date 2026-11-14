@@ -252,5 +252,25 @@
     "destination_main_page": "Undertale_Вики",
     "destination_search_path": "/index.php",
     "destination_content_path": "/w/"
+  },
+  {
+    "id": "ru-zenlesszonezero",
+    "origins_label": "Zenless Zone Zero Вики Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Zenless Zone Zero Вики Fandom Wiki",
+        "origin_base_url": "zenless-zone-zero.fandom.com/ru",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Zenless_Zone_Zero_Вики"
+      }
+    ],
+    "destination": "Zenless Zone Zero Wiki",
+    "destination_base_url": "zenlesszonezero.wiki.gg/ru",
+    "destination_platform": "mediawiki",
+    "destination_icon": "zenlesszonezerowiki.png",
+    "destination_main_page": "Zenless_Zone_Zero_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
   }
 ]
