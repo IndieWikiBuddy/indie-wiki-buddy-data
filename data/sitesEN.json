@@ -7424,6 +7424,26 @@
     "destination_content_path": "/wiki/"
   },
   {
+    "id": "en-knightfalladaringjourney",
+    "origins_label": "Knightfall: A Daring Journey Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Knightfall: A Daring Journey Fandom Wiki",
+        "origin_base_url": "knightfall-a-daring-journey.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Knightfall:_A_Daring_Journey_Wiki"
+      }
+    ],
+    "destination": "Knightfall: A Daring Journey Wiki",
+    "destination_base_url": "knightfall.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "knightfalladaringjourneywiki.png",
+    "destination_main_page": "Knightfall:_A_Daring_Journey_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-knighthood",
     "origins_label": "Knighthood Fandom Wiki",
     "origins": [
