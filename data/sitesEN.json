@@ -12941,11 +12941,11 @@
   },
   {
     "id": "en-taskmaster",
-    "origins_label": "Taskmaster Fandom Wiki",
+    "origins_label": "TaskmasterFandom Wiki",
     "origins": [
       {
         "origin": "Taskmaster Fandom Wiki",
-        "origin_base_url": "taskmaster.fandom.com"
+        "origin_base_url": "taskmaster.fandom.com",
         "origin_content_path": "/wiki/",
         "origin_main_page": "Taskmaster_Wiki"
       }
