@@ -13423,6 +13423,25 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-theresidents",
+    "origins_label": "Meet The Residents Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Meet The Residents Fandom Wiki",
+        "origin_base_url": "meettheresidents.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Meet_The_Residents_Wiki"
+      }
+    ],
+    "destination": "RZWiki",
+    "destination_base_url": "residents.wiki",
+    "destination_platform": "mediawiki",
+    "destination_icon": "rzwiki.png",
+    "destination_main_page": "Home",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/"
+  },
+  {
     "id": "en-thewanderinginn",
     "origins_label": "The Wandering Inn Fandom Wiki",
     "origins": [
