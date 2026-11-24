@@ -9552,11 +9552,11 @@
     "destination_content_path": "/"
   },
   {
-    "id": "en-obeliskminer",
-    "origins_label": "Obelisk Miner Fandom Wiki",
+    "id": "en-idleobeliskminer",
+    "origins_label": "Idle Obelisk Miner Fandom Wiki",
     "origins": [
       {
-        "origin": "Obelisk Miner Fandom Wiki",
+        "origin": "Idle Obelisk Miner Fandom Wiki",
         "origin_base_url": "obeliskminer.fandom.com",
         "origin_content_path": "/wiki/",
         "origin_main_page": "Obelisk_Miner_Wiki"
