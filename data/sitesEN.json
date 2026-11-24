@@ -8962,6 +8962,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-moviestarplanet",
+    "origins_label": "MovieStarPlanet Fandom Wiki",
+    "origins": [
+      {
+        "origin": "MovieStarPlanet Fandom Wiki",
+        "origin_base_url": "moviestarplanet.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "MovieStarPlanet"
+      }
+    ],
+    "destination": "MovieStarPlanet Wiki",
+    "destination_base_url": "moviestarplanet.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "moviestarplanetwiki.png",
+    "destination_main_page": "Main_Page",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
+  },
+  {
     "id": "en-mrlove",
     "origins_label": "Mr Love: Queen's Choice Fandom Wiki",
     "origins": [
