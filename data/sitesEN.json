@@ -6848,6 +6848,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-idleobeliskminer",
+    "origins_label": "Idle Obelisk Miner Fandom Wiki",
+    "origins": [
+      {
+        "origin": "Idle Obelisk Miner Fandom Wiki",
+        "origin_base_url": "obeliskminer.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "Obelisk_Miner_Wiki"
+      }
+    ],
+    "destination": "Idle Obelisk Miner Wiki",
+    "destination_base_url": "shminer.miraheze.org",
+    "destination_platform": "mediawiki",
+    "destination_icon": "idleobeliskminerwiki.png",
+    "destination_main_page": "Obelisk_Miner_Wiki",
+    "destination_search_path": "/w/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "Miraheze"
+  },
+  {
     "id": "en-idlewizard",
     "origins_label": "Idle Wizard Fandom Wiki",
     "origins": [
