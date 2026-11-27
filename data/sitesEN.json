@@ -12996,6 +12996,26 @@
     "destination_host": "wiki.gg"
   },
   {
+    "id": "en-surroundead",
+    "origins_label": "SurrounDead Fandom Wiki",
+    "origins": [
+      {
+        "origin": "SurrounDead Fandom Wiki",
+        "origin_base_url": "surroundead.fandom.com",
+        "origin_content_path": "/wiki/",
+        "origin_main_page": "SurrounDead_Wiki"
+      }
+    ],
+    "destination": "SurrounDead Wiki",
+    "destination_base_url": "surroundead.wiki.gg",
+    "destination_platform": "mediawiki",
+    "destination_icon": "surroundeadwiki.png",
+    "destination_main_page": "SurrounDead_Wiki",
+    "destination_search_path": "/index.php",
+    "destination_content_path": "/wiki/",
+    "destination_host": "wiki.gg"
+  },
+  {
     "id": "en-survivingmars",
     "origins_label": "Surviving Mars Fandom Wiki",
     "origins": [
